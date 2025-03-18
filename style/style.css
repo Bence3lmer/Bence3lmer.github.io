@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	font-family: arial;
+}
+
+.wide-cover-img img {
+	height: auto;
+	width: 100%;
+}
+
+.text {
+	border-style: solid;
+	border-width: 5px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	text-align: centre;
+	
+	float: centre;
+	padding: 1%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.game {
+	text-align: centre;
+}
+
+h1 {
+	text-align: center;
+}

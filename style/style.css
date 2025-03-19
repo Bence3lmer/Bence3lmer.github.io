@@ -3,28 +3,43 @@ body {
 	font-family: arial;
 }
 
+#all {
+	float: center;
+	text-align: centre;
+}
+
 .wide-cover-img img {
 	height: auto;
 	width: 100%;
 }
 
 .text {
+	display: inline-block;
+	text-align: centre;
+	float: centre;
+	
 	border-style: solid;
 	border-width: 5px;
 	border-top-left-radius: 40px;
 	border-top-right-radius: 40px;
 	border-bottom-left-radius: 40px;
 	border-bottom-right-radius: 40px;
-	text-align: centre;
 	
-	float: centre;
+	width: 50%;
+	height: auto;
 	padding: 1%;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
-.game {
+.gameplay-images img {
+	display: block;
 	text-align: centre;
+	height: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
 }
 
 h1 {
